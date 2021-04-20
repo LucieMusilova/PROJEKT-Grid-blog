@@ -71,6 +71,8 @@ blockquote {
   grid-template-columns: 1fr 4fr 2fr;
   gap: 0 40px;
   align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header,
@@ -110,6 +112,8 @@ footer a {
 blockquote {
   font-size: 32px;
   margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 h1 {
@@ -128,6 +132,7 @@ h2 {
 
 img {
   width: 100%;
+  max-width: 1200px;
 }
 
 .tip-vlevo {
